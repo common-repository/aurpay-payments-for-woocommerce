@@ -1,0 +1,37 @@
+.payment_method_aurpay_payment_gateway_wc label>img {
+    height: 2rem !important;
+    margin-bottom: -.3rem !important;
+    vertical-align: text-bottom !important;
+}
+
+#aurpay_coin {
+    width: 100% !important;
+    height: 2.8rem;
+    padding: .6rem 1.1rem;
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+    margin: 8px 0;
+    overflow-wrap: break-word !important;
+    font-size: var(--wp--preset--font-size--small);
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+#aurpay_coin_field {
+    position: relative;
+}
+
+#aurpay_coin_field::after {
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 94%;
+    margin-left: -4px;
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
